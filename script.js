@@ -27,7 +27,8 @@ const btnboton = document.getElementById('boton');
 btnboton.addEventListener('click', () => {
   if (btnboton) {
     osp.start();
-    console.log("funciona");
+    console.log("Activado");
+    alert("Ahora puedes hablar...");
   }
 });
 
@@ -35,7 +36,7 @@ const btnboton2 = document.getElementById('boton2');
 btnboton2.addEventListener('click', () => {
   if (btnboton2) {
     osp.stop();
-    console.log("funciona2");
+    console.log("Desactivado");
   }
 });
 

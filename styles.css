@@ -4,42 +4,49 @@
   font-family: Century;
 }
 body {
-  background-image: url(https://hackernoon.com/hn-images/1*ChocH_eUxil5eaeXIsd3rw.png);
+  /*background-image: url(https://hackernoon.com/hn-images/1*ChocH_eUxil5eaeXIsd3rw.png);*/
   background-size: 1350px 780px;
+  background-color: #6f8e92;
 }
 .texto {
   padding: 50px;
-  margin: 40px;
+  margin: 30px;
   box-shadow: 10px 5px 5px black;
-  background-color: #00bcd4;
+  background-color: #a9afaf;
   border-radius: 20px;
   font-size: 30px;
 }
 .btn {
   border-radius: 50px;
-  margin: 20px;
-  padding: 10px;
+  padding: 20px;
   float: right;
-  background-color: #01a8a8;
-  text-decoration-color: #e91e63;
+  background-color: #66d526;
 }
 .btn2 {
   border-radius: 50px;
-  padding: 10px;
+  padding: 20px;
   float: right;
-  background-color: #01a8a8;
-  text-decoration-color: #e91e63;
+  background-color: #dd2727;
 }
 .btn3 {
   border-radius: 50px;
-  margin: 20px;
-  padding: 10px;
+  margin: 20px, 30px;
+  padding: 20px;
   float: left;
-  background-color: #01a8a8;
-  text-decoration-color: #e91e63;
+  background-color: #d8dc09;
 }
-.btn:hover, .btn2:hover, .btn3:hover{
-  opacity: .7;
+.btn, .btn2, .btn3{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.btn:hover{
+  background-color: #56af22;
+}
+.btn2:hover{
+  background-color: #a72222;
+}
+.btn3:hover{
+  background-color:#adaf19
 }
 div#texto2:lang(en){
   font-size: 80px;
