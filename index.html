@@ -9,14 +9,31 @@
   <div class="texto" id="texto"></div>
   <div class="boton">
     <button class="btn2 btn-sm btn-secondary mt-3" id="boton2">Desactivar Micro</button>
-    <button class="btn btn-sm btn-secondary mt-3" id="boton">Activar Micro</button>
-    <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles('texto')">Copiar al Portapapeles</button>
+<!--     <button class="btn btn-sm btn-secondary mt-3" id="boton">Activar Micro</button>
+ -->
+
+ <!-- ***************************************** -->    
+    <img class="btn" id="boton" src="micro.ico"></img>
+<!-- ****************************************** -->
+
+    <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles('texto')">Copiar</button>
   </div>
   <br><br><br><br>
-  <div class="texto" id="texto2"></div>
-  <div class="boton">
-    <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles2('texto2')">Copiar al Portapapeles</button>
+  <div class="texto" id="texto2">
+
+<!--     <iframe src="https://translate.google.com/?es=en">
+    </iframe> 
+ -->
   </div>
+  <div class="boton">
+    <a href=https://translate.google.com/?hl=es=en">
+      <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles2('texto2')">Copiar y traducir</button>
+  </a>
+  </div>
+
+<!--   <iframe height="200" width="600" src="https://translate.google.com/?es=en" align="middle" border="0">
+  </iframe>
+ -->  
   <script src="script.js"></script>
-</body>
+</body> 
 </html>

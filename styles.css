@@ -5,9 +5,10 @@
 }
 body {
   /*background-image: url(https://hackernoon.com/hn-images/1*ChocH_eUxil5eaeXIsd3rw.png);*/
+  background-image: url("https://cutewallpaper.org/21/wallpaper-for-website/Website-wallpaper.gif");
   background-size: 1350px 780px;
-  background-color: #6f8e92;
-}
+/*   background-color: #6f8e92;
+ */}
 .texto {
   padding: 50px;
   margin: 30px;
@@ -16,39 +17,66 @@ body {
   border-radius: 20px;
   font-size: 30px;
 }
-.btn {
-  border-radius: 50px;
-  padding: 20px;
-  float: right;
-  background-color: #66d526;
+/* #sub-frame-error {
+  background-color: #a9afaf;
+  height: 100%;
+  position: absolute;
+  text-align: center;
 }
-.btn2 {
+ */
+ /* ********************************** */
+.btn {
+  border-radius: 20px;
+  min-width: 70px;
+  width: 70px;
+  padding: 10px;
+  margin: -15px;
+  float: right;
+  background-color: #595c73;
+}
+/* *********************************** */
+/* .btn {
   border-radius: 50px;
   padding: 20px;
   float: right;
-  background-color: #dd2727;
+  background-color: #595c73;
+}
+ */.btn2 {
+  border-radius: 50px;
+  padding: 20px;
+  float: right;
+  background-color: #595c73;
 }
 .btn3 {
   border-radius: 50px;
   margin: 20px, 30px;
   padding: 20px;
   float: left;
-  background-color: #d8dc09;
+  background-color: #b12c2e;
 }
-.btn, .btn2, .btn3{
+.btn2, .btn3{
   margin-right: 30px;
   margin-left: 30px;
 }
 .btn:hover{
   background-color: #56af22;
 }
+.btn:focus{
+  background-color: #56af22;
+}
 .btn2:hover{
   background-color: #a72222;
 }
-.btn3:hover{
-  background-color:#adaf19
+.btn2:focus{
+  background-color: #a72222;
 }
-div#texto2:lang(en){
+.btn3:hover, .btn3:focus{
+  background-color:#dd2727
+}
+/* .btn3:focus{
+  background-color:#dd2727
+}
+ */div#texto2{
   font-size: 80px;
   font-family: "Droid Arabic Naskh", Amiri, serif;
 }

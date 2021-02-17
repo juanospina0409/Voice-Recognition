@@ -22,7 +22,14 @@ function iniciar2(event){
   console.log(texto2.innerHTML);
 }
 
-
+/* tr = google.language.translate("Hello world", "en", "es", function(result) {
+  if (!result.error) {
+    var container = document.getElementById("texto2");
+    container.innerHTML = result.translation;
+    console.log(container.innerHTML);
+  }
+});
+ */
 const btnboton = document.getElementById('boton');
 btnboton.addEventListener('click', () => {
   if (btnboton) {
