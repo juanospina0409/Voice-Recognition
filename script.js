@@ -1,6 +1,6 @@
 let osp;
     if (!("webkitSpeechRecognition" in window)) {
-    	alert("Lo siento, tu navegador no soporta esta función.");
+    	alert("Lo siento, tu navegador no soporta esta función :'(");
     } else {
     	osp = new webkitSpeechRecognition();
       osp.lang = "es";
@@ -11,41 +11,36 @@ let osp;
     }
 function iniciar(event){
 	for (let i = event.resultIndex; i < event.results.length; i++){
-    document.getElementById('texto').innerHTML = event.results[i][0].transcript;
+    document.getElementById('texto').innerHTML = event.results[i][0].transcript; 
 	}
 }
 function iniciar2(event){
   for (let i = event.resultIndex; i < event.results.length; i++){
     document.getElementById('texto2').innerHTML = event.results[i][0].transcript;
   }
-  var txt = document.getElementById("texto2");
+  var txt = document.getElementById('texto2');
   console.log(texto2.innerHTML);
 }
 
-/* tr = google.language.translate("Hello world", "en", "es", function(result) {
-  if (!result.error) {
-    var container = document.getElementById("texto2");
-    container.innerHTML = result.translation;
-    console.log(container.innerHTML);
-  }
-});
- */
+
 const btnboton = document.getElementById('boton');
 btnboton.addEventListener('click', () => {
   if (btnboton) {
-    osp.start();
+    osp.start(cambiar());
     console.log("Activado");
-    alert("Ahora puedes hablar...");
+    boton.style.backgroundColor = '#56af22';
   }
+  return 0;
 });
-
-const btnboton2 = document.getElementById('boton2');
-btnboton2.addEventListener('click', () => {
-  if (btnboton2) {
+function cambiar() {  
+  document.getElementById('boton').onclick;
+  if (btnboton) {      
     osp.stop();
-    console.log("Desactivado");
+    console.log("Desctivado");
+    boton.style.backgroundColor = '#a72222';
   }
-});
+  return 0;
+}
 
 
 function copiarAlPortapapeles(id_elemento){
@@ -65,3 +60,12 @@ function copiarAlPortapapeles2(id_elemento) {
   document.execCommand("copy");
   document.body.removeChild(w);
 }
+
+/* tr = google.language.translate("Hello world", "en", "es", function(result) {
+  if (!result.error) {
+    var container = document.getElementById("texto2");
+    container.innerHTML = result.translation;
+    console.log(container.innerHTML);
+  }
+});
+ */
