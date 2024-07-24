@@ -1,39 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <title>Reconocimineto de Voz</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="icon" href="micro.ico">
+  <link rel="icon" href="microphone.png">
 </head>
 <body>
   <div class="texto" id="texto"></div>
+
   <div class="boton">
-    <button class="btn2 btn-sm btn-secondary mt-3" id="boton2">Desactivar Micro</button>
-<!--     <button class="btn btn-sm btn-secondary mt-3" id="boton">Activar Micro</button>
- -->
-
- <!-- ***************************************** -->    
-    <img class="btn" id="boton" src="micro.ico"></img>
-<!-- ****************************************** -->
-
+    <img class="btn" id="boton" src="microphone.png" alt="act-micro"></img>
     <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles('texto')">Copiar</button>
   </div>
-  <br><br><br><br>
-  <div class="texto" id="texto2">
 
-<!--     <iframe src="https://translate.google.com/?es=en">
-    </iframe> 
- -->
-  </div>
-  <div class="boton">
-    <a href=https://translate.google.com/?hl=es=en">
-      <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles2('texto2')">Copiar y traducir</button>
+  <div class="texto" id="texto2" style="margin-top: 200px;"></div>
+
+  <a href="https://translate.google.com/?es=en">
+    <button class="btn3 btn-sm btn-secondary mt-3" onclick="copiarAlPortapapeles2('texto2')">Copiar y traducir</button>
   </a>
-  </div>
 
 <!--   <iframe height="200" width="600" src="https://translate.google.com/?es=en" align="middle" border="0">
   </iframe>
  -->  
+<!--     <iframe src="https://translate.google.com/?es=en"></iframe> 
+ -->
+
   <script src="script.js"></script>
 </body> 
 </html>

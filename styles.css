@@ -4,11 +4,9 @@
   font-family: Century;
 }
 body {
-  /*background-image: url(https://hackernoon.com/hn-images/1*ChocH_eUxil5eaeXIsd3rw.png);*/
-  background-image: url("https://cutewallpaper.org/21/wallpaper-for-website/Website-wallpaper.gif");
+  background-image: url("OIG1.JPEG");
   background-size: 1350px 780px;
-/*   background-color: #6f8e92;
- */}
+}
 .texto {
   padding: 50px;
   margin: 30px;
@@ -16,67 +14,37 @@ body {
   background-color: #a9afaf;
   border-radius: 20px;
   font-size: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
-/* #sub-frame-error {
-  background-color: #a9afaf;
-  height: 100%;
-  position: absolute;
-  text-align: center;
-}
- */
- /* ********************************** */
 .btn {
   border-radius: 20px;
   min-width: 70px;
-  width: 70px;
+  width: 120px;
   padding: 10px;
-  margin: -15px;
+  margin: 5px;
   float: right;
-  background-color: #595c73;
-}
-/* *********************************** */
-/* .btn {
-  border-radius: 50px;
-  padding: 20px;
-  float: right;
-  background-color: #595c73;
-}
- */.btn2 {
-  border-radius: 50px;
-  padding: 20px;
-  float: right;
-  background-color: #595c73;
-}
-.btn3 {
-  border-radius: 50px;
-  margin: 20px, 30px;
-  padding: 20px;
-  float: left;
-  background-color: #b12c2e;
-}
-.btn2, .btn3{
-  margin-right: 30px;
-  margin-left: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 .btn:hover{
   background-color: #56af22;
 }
-.btn:focus{
-  background-color: #56af22;
+.btn3 {
+  border-radius: 50px;
+  margin-left: 30px;
+  padding: 20px;
+  float: left;
+  background-color: #b12c2e;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
-.btn2:hover{
-  background-color: #a72222;
-}
-.btn2:focus{
-  background-color: #a72222;
-}
-.btn3:hover, .btn3:focus{
+.btn3:hover, .btn3:active{
   background-color:#dd2727
-}
-/* .btn3:focus{
-  background-color:#dd2727
-}
- */div#texto2{
-  font-size: 80px;
-  font-family: "Droid Arabic Naskh", Amiri, serif;
 }
